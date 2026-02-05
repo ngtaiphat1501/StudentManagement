@@ -93,13 +93,13 @@ public class Grade {
     public String toString() {
         return String.format(
             "╔════════════════════════════════════════════════════════════════╗%n" +
-            "║ Mã điểm: %-51d ║%n" +
-            "║ Mã đăng ký: %-49d ║%n" +
-            "║ Điểm chuyên cần: %-44.2f ║%n" +
-            "║ Điểm giữa kỳ: %-47.2f ║%n" +
-            "║ Điểm cuối kỳ: %-48.2f ║%n" +
-            "║ Điểm tổng kết: %-47.2f ║%n" +
-            "║ Điểm chữ: %-52s ║%n" +
+            "║ Ma diem: %-51d ║%n" +
+            "║ Ma đang ky: %-49d ║%n" +
+            "║ Điem chuyen can: %-44.2f ║%n" +
+            "║ Điem giua ky: %-47.2f ║%n" +
+            "║ Điem cuoi ky: %-48.2f ║%n" +
+            "║ Điem tong ket: %-47.2f ║%n" +
+            "║ Điem chu: %-52s ║%n" +
             "╚════════════════════════════════════════════════════════════════╝",
             gradeId, enrollmentId, attendanceScore, midtermScore, 
             finalScore, totalScore, letterGrade

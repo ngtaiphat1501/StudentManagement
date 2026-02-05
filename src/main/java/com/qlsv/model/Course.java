@@ -40,11 +40,11 @@ public class Course {
     public String toString() {
         return String.format(
             "╔════════════════════════════════════════════════════════════════╗%n" +
-            "║ Mã môn: %-53s ║%n" +
-            "║ Tên môn: %-52s ║%n" +
-            "║ Số tín chỉ: %-49d ║%n" +
+            "║ Ma mon: %-53s ║%n" +
+            "║ Ten mon: %-52s ║%n" +
+            "║ So tin chi: %-49d ║%n" +
             "║ Khoa: %-55s ║%n" +
-            "║ Học kỳ: %-53d ║%n" +
+            "║ Hoc ky: %-53d ║%n" +
             "╚════════════════════════════════════════════════════════════════╝",
             courseId, courseName, credits, departmentId, semester
         );

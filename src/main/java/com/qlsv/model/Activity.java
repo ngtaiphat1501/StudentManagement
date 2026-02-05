@@ -93,14 +93,14 @@ public class Activity {
     public String toString() {
         return String.format(
             "╔════════════════════════════════════════════════════════════════╗%n" +
-            "║ Mã hoạt động: %-47d ║%n" +
-            "║ Tên hoạt động: %-46s ║%n" +
-            "║ Loại hoạt động: %-45s ║%n" +
-            "║ Tổ chức: %-52s ║%n" +
-            "║ Thời gian: %-50s ║%n" +
-            "║ Số giờ: %-52d ║%n" +
-            "║ Điểm cộng: %-49.2f ║%n" +
-            "║ Trạng thái: %-50s ║%n" +
+            "║ Ma hoat dong: %-47d ║%n" +
+            "║ Ten hoat dong: %-46s ║%n" +
+            "║ Loai hoat dong: %-45s ║%n" +
+            "║ To chuc: %-52s ║%n" +
+            "║ Thoi gian: %-50s ║%n" +
+            "║ So gio: %-52d ║%n" +
+            "║ Điem cong: %-49.2f ║%n" +
+            "║ Trang thai: %-50s ║%n" +
             "╚════════════════════════════════════════════════════════════════╝",
             activityId, activityName, activityType, organization,
             startDate + " - " + endDate, hoursSpent, pointsEarned, status

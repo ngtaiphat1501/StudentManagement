@@ -148,18 +148,18 @@ public class Student {
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
         return String.format(
             "╔════════════════════════════════════════════════════════════════╗%n" +
-            "║ Mã SV: %-54s ║%n" +
-            "║ Họ tên: %-54s ║%n" +
-            "║ Ngày sinh: %-50s ║%n" +
-            "║ Giới tính: %-50s ║%n" +
-            "║ Điện thoại: %-49s ║%n" +
+            "║ Ma SV: %-54s ║%n" +
+            "║ Ho ten: %-54s ║%n" +
+            "║ Ngay sinh: %-50s ║%n" +
+            "║ Gioi tinh: %-50s ║%n" +
+            "║ Đien thoai: %-49s ║%n" +
             "║ Email: %-54s ║%n" +
-            "║ Địa chỉ: %-53s ║%n" +
-            "║ Lớp: %-56s ║%n" +
-            "║ Ngày nhập học: %-46s ║%n" +
+            "║ Đia chi: %-53s ║%n" +
+            "║ Lop: %-56s ║%n" +
+            "║ Ngay nhap học: %-46s ║%n" +
             "║ GPA: %-55.2f ║%n" +
-            "║ Điểm RL: %-52.2f ║%n" +
-            "║ Trạng thái: %-50s ║%n" +
+            "║ Điem RL: %-52.2f ║%n" +
+            "║ Trang thai: %-50s ║%n" +
             "╚════════════════════════════════════════════════════════════════╝",
             studentId, fullName, sdf.format(birthDate), gender, phone, 
             email, address, classId, sdf.format(enrollmentDate), 

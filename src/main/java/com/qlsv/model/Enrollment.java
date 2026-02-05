@@ -54,12 +54,12 @@ public class Enrollment {
     public String toString() {
         return String.format(
             "╔════════════════════════════════════════════════════════════════╗%n" +
-            "║ Mã đăng ký: %-49d ║%n" +
-            "║ Mã SV: %-54s ║%n" +
-            "║ Mã môn: %-53s ║%n" +
-            "║ Học kỳ: %-53s ║%n" +
-            "║ Năm học: %-52s ║%n" +
-            "║ Trạng thái: %-50s ║%n" +
+            "║ Ma dang ki: %-49d ║%n" +
+            "║ Ma SV: %-54s ║%n" +
+            "║ Ma mon: %-53s ║%n" +
+            "║ Hoc ky: %-53s ║%n" +
+            "║ Nam hoc: %-52s ║%n" +
+            "║ Trang thai: %-50s ║%n" +
             "╚════════════════════════════════════════════════════════════════╝",
             enrollmentId, studentId, courseId, semester, academicYear, status
         );
