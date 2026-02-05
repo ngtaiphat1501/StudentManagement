@@ -69,13 +69,13 @@ public class TrainingScore {
     public String toString() {
         return String.format(
             "╔════════════════════════════════════════════════════════════════╗%n" +
-            "║ Mã điểm RL: %-48d ║%n" +
-            "║ Mã SV: %-54s ║%n" +
-            "║ Năm học: %-52s ║%n" +
-            "║ Học kỳ: %-53d ║%n" +
-            "║ Tổng điểm: %-50.2f ║%n" +
-            "║ Xếp loại: %-51s ║%n" +
-            "║ Ngày tính: %-50s ║%n" +
+            "║ Ma điem RL: %-48d ║%n" +
+            "║ Ma SV: %-54s ║%n" +
+            "║ Nam hoc: %-52s ║%n" +
+            "║ Hoc ky: %-53d ║%n" +
+            "║ Tong điem: %-50.2f ║%n" +
+            "║ Xep loai: %-51s ║%n" +
+            "║ Ngay tinh: %-50s ║%n" +
             "╚════════════════════════════════════════════════════════════════╝",
             scoreId, studentId, academicYear, semester, totalScore, ranking, calculatedAt
         );

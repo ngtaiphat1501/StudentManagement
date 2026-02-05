@@ -45,12 +45,12 @@ public class Class {
     public String toString() {
         return String.format(
             "╔════════════════════════════════════════════════════════════════╗%n" +
-            "║ Mã lớp: %-53s ║%n" +
-            "║ Tên lớp: %-52s ║%n" +
+            "║ Ma lop: %-53s ║%n" +
+            "║ Ten lop: %-52s ║%n" +
             "║ Khoa: %-55s ║%n" +
-            "║ Năm học: %-52s ║%n" +
-            "║ GV chủ nhiệm: %-47s ║%n" +
-            "║ Sĩ số: %-53d ║%n" +
+            "║ Nam hoc: %-52s ║%n" +
+            "║ GV chu nhiem: %-47s ║%n" +
+            "║ Si so: %-53d ║%n" +
             "╚════════════════════════════════════════════════════════════════╝",
             classId, className, departmentId, academicYear, advisor, totalStudents
         );

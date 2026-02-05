@@ -7,7 +7,6 @@ package main.java.com.qlsv.model;
 
 
 import java.util.Date;
-import java.util.Scanner;
 public class Grade {
     private int gradeId;
     private int enrollmentId;
@@ -94,43 +93,16 @@ public class Grade {
     public String toString() {
         return String.format(
             "╔════════════════════════════════════════════════════════════════╗%n" +
-            "║ Mã điểm: %-51d ║%n" +
-            "║ Mã đăng ký: %-49d ║%n" +
-            "║ Điểm chuyên cần: %-44.2f ║%n" +
-            "║ Điểm giữa kỳ: %-47.2f ║%n" +
-            "║ Điểm cuối kỳ: %-48.2f ║%n" +
-            "║ Điểm tổng kết: %-47.2f ║%n" +
-            "║ Điểm chữ: %-52s ║%n" +
+            "║ Ma diem: %-51d ║%n" +
+            "║ Ma đang ky: %-49d ║%n" +
+            "║ Điem chuyen can: %-44.2f ║%n" +
+            "║ Điem giua ky: %-47.2f ║%n" +
+            "║ Điem cuoi ky: %-48.2f ║%n" +
+            "║ Điem tong ket: %-47.2f ║%n" +
+            "║ Điem chu: %-52s ║%n" +
             "╚════════════════════════════════════════════════════════════════╝",
             gradeId, enrollmentId, attendanceScore, midtermScore, 
             finalScore, totalScore, letterGrade
         );
-    }
-    
-    public void enterGrade( Scanner sc){
-        
-       
-           attendanceScore = CheckinputGrade(sc, "Nhập điểm Chuyên cần: ");
-           midtermScore =  CheckinputGrade(sc, "Nhập điểm Giữa Kỳ: ");
-           finalScore = CheckinputGrade(sc, "Nhập điểm Cuối Kỳ: ");
-           calculateTotalScore();
-           calculateLetterGrade();
-    
-    }
-    // Kiểm tra nhập điểm có từ 0 - 10 hay không !!
-    private double CheckinputGrade(Scanner sc, String label){
-         double score;
-
-        do {
-            System.out.print(label);
-            score = sc.nextDouble();
-
-            if(score < 0 || score > 10){
-                System.out.println("❌ Điểm phải từ 0 → 10. Nhập lại!");
-            }
-
-        } while(score < 0 || score > 10);
-
-        return score;
-    }
+    } 
 }
