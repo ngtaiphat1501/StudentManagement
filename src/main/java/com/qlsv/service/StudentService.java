@@ -5,10 +5,7 @@
  */
 package main.java.com.qlsv.service;
 
-/**
- *
- * @author ACER
- */
+
 public class StudentService {
     
 }

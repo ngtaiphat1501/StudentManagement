@@ -22,7 +22,9 @@ public class Student {
     public Student() {
     }
 
-    public Student(String studentId, String fullName, Date birthDate, String gender, String phone, String email, String address, String classId, Date enrollmentDate, String status, double gpa, double trainingScore, boolean isDeleted) {
+    public Student(String studentId, String fullName, Date birthDate, String gender, 
+            String phone, String email, String address, String classId, Date enrollmentDate,
+            String status, double gpa, double trainingScore, boolean isDeleted) {
         this.studentId = studentId;
         this.fullName = fullName;
         this.birthDate = birthDate;
