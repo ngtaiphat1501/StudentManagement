@@ -39,6 +39,10 @@ public class Student {
         this.trainingScore = 0.0;
         this.isDeleted = false;
     }
+
+    public Student(String studentId, String fullName, Date birthDate, String gender, String phone, String email, String address, String classId) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 // get va set cho date private 
     public String getStudentId() {
         return studentId;
