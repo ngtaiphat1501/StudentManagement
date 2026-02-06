@@ -5,10 +5,33 @@
  */
 package main.java.com.qlsv.controller;
 
-/**
- *
- * @author ACER
- */
+ import main.java.com.qlsv.service.StudentService;
 public class StudentController {
+    private StudentService studentService;
+
+    public StudentController(StudentService studentService) {
+        this.studentService = studentService;
+    }
+    public void addStudent() {
+        studentService.addStudent();
+    }
+    
+    public void updateStudent() {
+        studentService.updateStudent();
+    }
+    
+    public void deleteStudent() {
+        studentService.deleteStudent();
+    }
+    
+    //public void searchStudent() {
+    //    studentService.searchStudent();
+    //}
+    
+    //public void viewAllStudents() {
+    //    studentService.viewAllStudents();
+    //}
+    
+    
     
 }
